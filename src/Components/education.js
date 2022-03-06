@@ -31,7 +31,7 @@ export const Education = () => {
                         </p>
                     </div>
                 </div>
-                <div classNames="experience-card">
+                <div className="experience-card">
                     <div className="titles">
                         <h4>Tesla STEM High School</h4>
                         <h3>4.0 GPA</h3>
