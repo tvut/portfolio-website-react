@@ -5,12 +5,34 @@ import pacmunp from '../Assets/Images/pacmun.png'
 import pacmunw from '../Assets/Images/pacmun.webp'
 import todo from '../Assets/Images/todo.mp4'
 import sync from '../Assets/Images/sync.mp4'
+import portfolio from '../Assets/Images/portfolio.mp4'
+import space from '../Assets/Images/space.mp4'
 import threads from '../Assets/Images/simple_threads_c.mp4'
 import pluginp from '../Assets/Images/plugin.png'
 import pluginw from '../Assets/Images/plugin.webp'
 
 export const Projects = ({dark}) => {
     const projects = [
+        {
+            imgpng: '',
+            imgweb: '',
+            vid: space,
+            source: '',
+            link: 'https://spacestagram-tvut.herokuapp.com',
+            tools: 'React.js, Bootstrap, REST APIs',
+            name: 'Spacestagram',
+            desc: 'Uses NASA\'s image of the day API in order to display images of the day over a set range with the ability to like or unlike an image and expand the description.'
+        },
+        {
+            imgpng: '',
+            imgweb: '',
+            vid: f_system_c,
+            source: '',
+            link: '',
+            tools: 'C, FUSE',
+            name: 'Simple File System',
+            desc: 'Implementation of a simple file system written in C. Can be mounted using FUSE and works as expected as a basic file system. Implements an I-Node structure for data storage. The file system stores a directory table, I-Node table, bitmap of free data blocks and a superblock to disk, as well as keeping them cached in memory when active to improve performance. '
+        },
         {
             imgpng: '',
             imgweb: '',
@@ -32,16 +54,6 @@ export const Projects = ({dark}) => {
             desc: 'A rewrite of a Wordpress gallery plugin with the goal of generating and serving images with resolution more correctly suited for the device screen size to save bandwidth and server load.'
         },
         {
-            imgpng: '',
-            imgweb: '',
-            vid: f_system_c,
-            source: '',
-            link: '',
-            tools: 'C, FUSE',
-            name: 'Simple File System',
-            desc: 'Implementation of a simple file system written in C. Can be mounted using FUSE and works as expected as a basic file system. Implements an I-Node structure for data storage. The file system stores a directory table, I-Node table, bitmap of free data blocks and a superblock to disk, as well as keeping them cached in memory when active to improve performance. '
-        },
-        {
             imgpng: pacmunp,
             imgweb: pacmunw,
             vid: '',
@@ -60,6 +72,16 @@ export const Projects = ({dark}) => {
             tools: 'Python',
             name: 'TuyaSync',
             desc: 'Program that would sample what was on a computer screen then change linked smart lights color to the average color from the screen.'
+        },
+        {
+            imgpng: '',
+            imgweb: '',
+            vid: portfolio,
+            source: 'https://github.com/tvut/portfolio-website-react',
+            link: '',
+            tools: 'React.js, CSS',
+            name: 'Portfolio Website',
+            desc: 'Built using React.js to allow for modular components and a dark mode that uses local browser storage. Vanilla CSS and modern web techniques were used to speed up page load.'
         },
         {
             imgpng: '',
