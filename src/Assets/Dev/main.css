@@ -226,6 +226,7 @@ ul {
 
 .bottom {
     bottom: 0px;
+    margin-top: -4px;
     width: 100%;
     background: var(--bg);
     display: block;

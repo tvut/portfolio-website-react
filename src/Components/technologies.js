@@ -23,13 +23,17 @@ export const Technologies = () => {
                 "Wordpress",
                 "Git",
                 "Adobe Suite",
-                "Docker"
+                "Docker",
+                "Express",
+                "React.js"
             ]
         },
         {
             name: "Applications",
             list: [
-                "Web Development",
+                "Frontend Web Development",
+                "Backend Web Development",
+                "Web Design",
                 "Scripting",
                 "Robotics"
             ]

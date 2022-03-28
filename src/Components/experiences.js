@@ -7,14 +7,14 @@ export const Experiences = () => {
           company: "McGill CSUS",
           start: "January 2022",
           end: "Present",
-          body: "Working as a tutor for the helpdesk at the McGill Computer Science Undergraduate Society tutoring other McGill students on classes I had previously taken, as well as other introductory level Java, Python and C courses."
+          body: "Working as a tutor for the helpdesk at the McGill Computer Science Undergraduate Society tutoring other McGill students. Tutoring computer science concepts such as algorithms and data structures. Guiding tutees on best debugging practices and how to get the expected behavior. Explaining computer science paradigms and good software design principles. Demonstrating proper syntax and how to learn proper syntax from software documentation."
         },
         {
           position: "Front End Developer",
           company: "UAEM McGill",
           start: "December 2021",
           end: "Present",
-          body: "Collaborating in a small team to build a Personal Protective Equipment Tracker developed in React.js with Tailwind CSS. My team is working with the backend team to connect the frontend to the backend built in MongoDB."
+          body: "Collaborating in a small team to build a Personal Protective Equipment Tracker developed in React.js with Tailwind CSS for local organization in Montreal. Working closely with the backend team to maintain a Docker setup for the multiple databases and helping to maintain and edit the Express.js REST endpoints as necessary."
         },
         {
           position: "Lead Programmer",

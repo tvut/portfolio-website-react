@@ -3,25 +3,36 @@ import covid from '../Assets/Images/covid.mp4'
 import f_system_c from '../Assets/Images/f_system_c.mp4'
 import pacmunp from '../Assets/Images/pacmun.png'
 import pacmunw from '../Assets/Images/pacmun.webp'
-import todo from '../Assets/Images/todo.mp4'
+// import todo from '../Assets/Images/todo.mp4'
 import sync from '../Assets/Images/sync.mp4'
 import portfolio from '../Assets/Images/portfolio.mp4'
-import space from '../Assets/Images/space.mp4'
+import spotify from '../Assets/Images/spotify.mp4'
+// import space from '../Assets/Images/space.mp4'
 import threads from '../Assets/Images/simple_threads_c.mp4'
 import pluginp from '../Assets/Images/plugin.png'
 import pluginw from '../Assets/Images/plugin.webp'
 
 export const Projects = ({dark}) => {
     const projects = [
+        // {
+        //     imgpng: '',
+        //     imgweb: '',
+        //     vid: space,
+        //     source: '',
+        //     link: 'https://spacestagram-tvut.herokuapp.com',
+        //     tools: 'React.js, Bootstrap, REST APIs',
+        //     name: 'Spacestagram',
+        //     desc: 'Uses NASA\'s image of the day API in order to display images of the day over a set range with the ability to like or unlike an image and expand the description.'
+        // },
         {
             imgpng: '',
             imgweb: '',
-            vid: space,
+            vid: spotify,
             source: '',
-            link: 'https://spacestagram-tvut.herokuapp.com',
-            tools: 'React.js, Bootstrap, REST APIs',
-            name: 'Spacestagram',
-            desc: 'Uses NASA\'s image of the day API in order to display images of the day over a set range with the ability to like or unlike an image and expand the description.'
+            link: 'https://mixerify.ml',
+            tools: 'React.js, Express, Tailwind CSS, Spotify API',
+            name: 'Mixerify',
+            desc: 'Developed a front end to allow a user to browser their Spotify library to pick playlists to send to our ML model, then developed a backend facilitating authorization and operating the Python ML model.'
         },
         {
             imgpng: '',
@@ -44,16 +55,6 @@ export const Projects = ({dark}) => {
             desc: 'Scraped comments on YouTube videos that matched keywords and location parameters then analyzed the comments using a trained sentiment analysis model to examine different COVID sentiments by region.'
         },
         {
-            imgpng: pluginp,
-            imgweb: pluginw,
-            vid: '',
-            source: '',
-            link: 'https://x.tristans.ca',
-            tools: 'PHP, CSS, Wordpress',
-            name: 'WP Masonry Gallery',
-            desc: 'A rewrite of a Wordpress gallery plugin with the goal of generating and serving images with resolution more correctly suited for the device screen size to save bandwidth and server load.'
-        },
-        {
             imgpng: pacmunp,
             imgweb: pacmunw,
             vid: '',
@@ -66,16 +67,6 @@ export const Projects = ({dark}) => {
         {
             imgpng: '',
             imgweb: '',
-            vid: sync,
-            source: '',
-            link: 'https://github.com/tvut/tuya-sync',
-            tools: 'Python',
-            name: 'TuyaSync',
-            desc: 'Program that would sample what was on a computer screen then change linked smart lights color to the average color from the screen.'
-        },
-        {
-            imgpng: '',
-            imgweb: '',
             vid: portfolio,
             source: 'https://github.com/tvut/portfolio-website-react',
             link: '',
@@ -84,15 +75,35 @@ export const Projects = ({dark}) => {
             desc: 'Built using React.js to allow for modular components and a dark mode that uses local browser storage. Vanilla CSS and modern web techniques were used to speed up page load.'
         },
         {
+            imgpng: pluginp,
+            imgweb: pluginw,
+            vid: '',
+            source: '',
+            link: 'https://x.tristans.ca',
+            tools: 'PHP, CSS, Wordpress',
+            name: 'WP Masonry Gallery',
+            desc: 'A rewrite of a Wordpress gallery plugin with the goal of generating and serving images with resolution more correctly suited for the device screen size to save bandwidth and server load.'
+        },
+        {
             imgpng: '',
             imgweb: '',
-            vid: todo,
+            vid: sync,
             source: '',
-            link: '',
-            tools: 'React.js, Bootstrap',
-            name: 'React ToDo',
-            desc: 'Simple To-do app written in React that takes advantage of local browser storage in order to store and keep track of to-dos.'
+            link: 'https://github.com/tvut/tuya-sync',
+            tools: 'Python',
+            name: 'TuyaSync',
+            desc: 'Program that would sample what was on a computer screen then change linked smart lights color to the average color from the screen.'
         },
+        // {
+        //     imgpng: '',
+        //     imgweb: '',
+        //     vid: todo,
+        //     source: '',
+        //     link: '',
+        //     tools: 'React.js, Bootstrap',
+        //     name: 'React ToDo',
+        //     desc: 'Simple To-do app written in React that takes advantage of local browser storage in order to store and keep track of to-dos.'
+        // },
         {
             imgpng: '',
             imgweb: '',
