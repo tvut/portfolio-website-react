@@ -32,7 +32,7 @@ export const Projects = ({dark}) => {
             link: 'https://mixerify.ml',
             tools: 'React.js, Express, Tailwind CSS, Spotify API',
             name: 'Mixerify',
-            desc: 'Developed a front end to allow a user to browser their Spotify library to pick playlists to send to our ML model, then developed a backend facilitating authorization and operating the Python ML model.'
+            desc: 'Developed a front end to allow a user to browse their Spotify library to pick playlists to send to our ML model, then developed a backend facilitating authorization and operating the Python ML model.'
         },
         {
             imgpng: '',
