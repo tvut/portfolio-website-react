@@ -332,3 +332,22 @@ footer a{
 footer a:hover{
     color:#FFF
 }
+
+.music-container{
+    box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.4);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23263c;
+    padding:20px;
+}
+.music-container p{
+    font-size: 16px !important;
+    color:white;
+    padding:15px;
+}
+.music-container img{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}

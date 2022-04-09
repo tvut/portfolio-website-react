@@ -7,6 +7,7 @@ import Technologies from './Components/technologies';
 import { useState, useEffect } from 'react';
 import Education from './Components/education';
 import Footer from './Components/footer';
+import Music from './Components/music';
 
 function App() {
   const key = "darkMode"
@@ -69,6 +70,7 @@ function App() {
       </div>
     </div>
     <Footer dark={darkMode} toggleDark={toggleDark}/>
+    <Music/>
     </>
   );
 }
