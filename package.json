@@ -16,8 +16,8 @@
   "scripts": {
     "start": "npm run build_css && react-scripts start",
     "build_css": "sass src/Assets/Dev/main.sass src/Assets/Dev/main.css && sass src/Assets/Dev/responsive.sass src/Assets/Dev/responsive.css",
-    "build_css_min": "sass src/Assets/Dev/main.sass src/Assets/Dev/main.css --style compressed && sass src/Assets/Dev/responsive.sass src/Assets/Dev/responsive.css --style compressed",
-    "build": "npm run build_css_min && react-scripts build",
+    "build_css_min": "sass src/Assets/Dev/main.sass src/Assets/Dev/main.css --no-source-map --style compressed && sass src/Assets/Dev/responsive.sass src/Assets/Dev/responsive.css --no-source-map --style compressed",
+    "build": "npm run build_css_min && GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
