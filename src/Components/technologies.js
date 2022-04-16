@@ -5,14 +5,16 @@ export const Technologies = () => {
         {
             name: "Languages",
             list: [
-                "C",
-                "Java",
-                "HTML / CSS",
-                "JavaScript",
-                "Python",
-                "PHP",
                 "C++",
-                "Bash"
+                "C",
+                "Python",
+                "Java",
+                "HTML",
+                "CSS / SASS",
+                "JavaScript ES6",
+                "PHP",
+                "Bash",
+                "Ocaml"
             ]
         },
         {
