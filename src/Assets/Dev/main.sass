@@ -1,0 +1,312 @@
+html
+    width: 100vw
+    overflow-x: hidden
+
+*
+    box-sizing: border-box
+    transition: color 0.15s, background 0.15s
+
+:root
+    --bg: #2B2E4A
+    --accent: #E84545
+
+a
+    transition: color .3s
+    color: var(--accent)
+    cursor: pointer
+
+a:hover
+    color: var(--bg)
+
+
+::-webkit-scrollbar 
+    height: 10px
+    width: 12px
+    background: white
+
+
+::-webkit-scrollbar-thumb 
+    background: #CCC
+    border-radius:10px
+
+
+h2 
+    font-size: 56px
+
+
+h4 
+    font-size: 36px
+
+
+.half-center 
+    height: 40vh
+    width: 100vw
+    display: flex
+    text-align: center
+    overflow: hidden
+    background: linear-gradient(180deg, var(--bg) 35%, var(--accent) 100%)
+
+    h1 
+        align-self: flex-end
+        text-align: center
+        width: 100vw
+        color: white
+        font-size: 10vw
+        margin-bottom: -2.8vw
+
+
+body 
+    background-color: var(--bg)
+
+
+body, p 
+    font-family: 'Raleway', sans-serif
+    font-weight: 400
+    margin: 0
+
+.light
+    color: black
+
+.dark
+    color: white
+
+.bg 
+    background-color: white
+
+.bg-dark 
+    background-color: #041C32
+
+h3
+    text-transform: uppercase
+
+h1, h2, h3, h4, h5, h6 
+    font-family: 'Raleway', sans-serif
+    font-weight: 900
+
+.container 
+    padding: 8vh 8vw 8vh 8vw
+
+    p 
+        font-size: 36px
+
+.arrow 
+    transition: border .3s
+    border: solid var(--accent)
+    margin-top: 10px
+    margin-right: 2vh
+    display: inline-block
+
+.right 
+    transform: rotate(-45deg)
+    -webkit-transform: rotate(-45deg)
+
+.overflow 
+    padding: 0px 30px 0px 30px
+    overflow-x: auto
+    display: flex
+    flex-wrap: nowrap
+
+.project 
+    display: block
+    height: 40vh
+    width: 40vh
+    float: left
+    flex-shrink: 0
+    margin: 1.5vh
+    padding: 3vh
+    position: relative
+    border: var(--accent) solid 5px
+    border-top-left-radius: 30px
+    border-bottom-right-radius: 30px
+
+    svg
+        fill: var(--accent)
+
+.svg-top 
+    top: -5px
+    right: -5px
+    position: absolute
+    width: 10vh
+    height: 10vh
+
+
+.svg-bottom 
+    bottom: -5px
+    left: -5px
+    position: absolute
+    width: 10vh
+    height: 10vh
+    transform: rotate(180deg)
+
+.experience-card
+    h3, h4, h5 
+        margin-top: 8px
+        margin-left: 0px
+        margin-bottom: 8px
+
+    h4 
+        font-size: 28px
+
+    h5 
+        font-size: 14px
+
+
+.text p, .text ul 
+    font-size: 22px
+
+ul 
+    margin-block: 10px
+
+
+.card 
+    box-shadow: 0px 0px 7px 0px #999
+    flex-shrink: 0
+
+    h4
+        color: var(--accent)
+        text-align: left
+        margin-top:0px
+        margin-bottom:0px
+        font-family: 'Raleway', sans-serif
+        font-weight: 600
+
+    h3 
+        margin-top:10px
+        margin-bottom:8px
+        margin-left: -0px
+        text-align: left
+
+    p 
+        line-height: 140%
+        text-align: left
+
+    img, video, picture 
+        width: 100%
+
+
+.inner 
+    text-align: right
+
+
+.bottom 
+    bottom: 0px
+    margin-top: -4px
+    width: 100%
+    background: var(--bg)
+    display: block
+    color: white
+    text-transform: uppercase
+    font-weight: 900
+    text-decoration: none
+    transition: background .3s
+
+    i 
+        float: right
+        margin-top: 0px
+        border-color: white
+
+
+.bottom:hover 
+    background: var(--accent)
+    color: black
+
+    i 
+        border-color: black
+
+
+.bottom-dark:hover
+    background: var(--accent)
+    color: white
+
+    i 
+        border-color: white
+
+
+.tri 
+    width: 33%
+    display: inline-block
+    vertical-align: top
+
+    h4 
+        font-size: 24px
+        margin-bottom: 0px
+        margin-top: 10px
+
+
+    h3 
+        margin-Left: 0px
+        color: var(--accent)
+        margin-top: 5px
+        margin-bottom: 5px
+
+.contact-bar
+    background-color: var(--accent)
+    font-size: 40px
+    color: var(--accent)
+
+    .container 
+        padding-top:20px
+        display: flex
+        padding-bottom: 20px
+        flex-wrap: wrap
+
+.social
+    display: flex
+    width: 45%
+    align-items: center
+    margin: 6px
+    padding:10px
+    border-radius: 15px
+    color: var(--bg)
+    text-decoration: none
+    transition: all .3s
+
+    i
+        margin-right: 20px
+        margin-left:6px
+
+    h3
+        font-size: 22px
+        display: inline-block
+        font-family: 'Lato', sans-serif
+        margin-top: 0
+        margin-bottom: 0
+
+.social:hover
+    color: #FFF
+    background: var(--bg)
+
+footer
+    text-align: center
+    background-color: var(--bg)
+    margin-top:-1px
+
+    p 
+        font-size: 20px !important
+        text-transform: uppercase
+        color: white
+    
+    a
+        color: var(--accent)
+
+    a:hover
+        color:#FFF
+
+
+.music-container
+    box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.4)
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: #23263c
+    padding:20px
+
+    p
+        font-size: 16px !important
+        color: white
+        padding:15px
+
+    img
+        height: 50px
+        width: 50px
+        border-radius: 5px

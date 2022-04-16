@@ -13,8 +13,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm run build_css && react-scripts start",
+    "build_css": "sass src/Assets/Dev/main.sass src/Assets/Dev/main.css && sass src/Assets/Dev/responsive.sass src/Assets/Dev/responsive.css",
+    "build_css_min": "sass src/Assets/Dev/main.sass src/Assets/Dev/main.css --style compressed && sass src/Assets/Dev/responsive.sass src/Assets/Dev/responsive.css --style compressed",
+    "build": "npm run build_css_min && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
