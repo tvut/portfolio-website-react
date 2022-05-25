@@ -2,19 +2,26 @@ import { ExperienceCard } from "./experience"
 
 export const Experiences = () => {
     const experience = [
+      {
+        position: "Software Development Intern",
+        company: "RareCyte",
+        start: "May 2022",
+        end: "Present",
+        body: "Wireframing and implementing a Python API to provide higher level functionality to a lower level C++ API. Developing a JS frontend with a Python backend to allow control of the hardware instrument from a progressive web app."
+      },
+      {
+        position: "Front End Developer",
+        company: "UAEM McGill",
+        start: "December 2021",
+        end: "May 2022",
+        body: "Collaborating in a small team to build a Personal Protective Equipment Tracker developed in React.js with Tailwind CSS for local organizations in Montreal. Working closely with the backend team to maintain a Docker setup for the multiple databases and helping to maintain and edit the Express.js REST endpoints as necessary."
+      },
         {
           position: "TEAM Mentor",
           company: "McGill CSUS",
           start: "January 2022",
-          end: "Present",
+          end: "April 2022",
           body: "Working as a tutor for the helpdesk at the McGill Computer Science Undergraduate Society tutoring other McGill students. Tutoring computer science concepts such as algorithms and data structures. Guiding tutees on best debugging practices and how to get the expected behavior from their code. Explaining computer science paradigms and good software design principles. Demonstrating proper syntax and how to learn proper syntax from software documentation."
-        },
-        {
-          position: "Front End Developer",
-          company: "UAEM McGill",
-          start: "December 2021",
-          end: "Present",
-          body: "Collaborating in a small team to build a Personal Protective Equipment Tracker developed in React.js with Tailwind CSS for local organizations in Montreal. Working closely with the backend team to maintain a Docker setup for the multiple databases and helping to maintain and edit the Express.js REST endpoints as necessary."
         },
         {
           position: "Lead Programmer",

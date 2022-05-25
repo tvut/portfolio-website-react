@@ -7,7 +7,7 @@ export const Education = () => {
                     <div className="titles">
                         <h3>Bs.C. Honours Computer Science</h3>
                         <h4>McGill University</h4>
-                        <h3>3.94 GPA</h3>
+                        <h3>3.83 GPA</h3>
                         <h5>September 2020 - Present</h5>
                     </div>
                     <div className="text">
@@ -19,16 +19,16 @@ export const Education = () => {
                                 <li><a href="https://www.mcgill.ca/study/2021-2022/courses/comp-310">Operating Systems</a></li>
                                 <li><a href="https://www.mcgill.ca/study/2021-2022/courses/math-240">Discrete Structures</a></li>
                                 <li><a href="https://www.mcgill.ca/study/2021-2022/courses/comp-350">Numerical Computing</a></li>
-                            </ul>
-                        </p>
-                        <p>Current Computer Science classes:
-                            <ul>
                                 <li><a href="https://www.mcgill.ca/study/2021-2022/courses/comp-322">Introduction to C++</a></li>
                                 <li><a href="https://www.mcgill.ca/study/2021-2022/courses/comp-321">Programming Challenges</a></li>
                                 <li><a href="https://www.mcgill.ca/study/2021-2022/courses/comp-302">Programming Languages and Paradigms</a></li>
                                 <li><a href="https://www.mcgill.ca/study/2021-2022/courses/comp-252">Honours Algorithms and Data Structures</a></li>
                             </ul>
                         </p>
+                        {/* <p>Current Computer Science classes:
+                            <ul>
+                            </ul>
+                        </p> */}
                     </div>
                 </div>
                 <div className="experience-card">

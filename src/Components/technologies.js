@@ -27,7 +27,9 @@ export const Technologies = () => {
                 "Adobe Suite",
                 "Docker",
                 "Express",
-                "React.js"
+                "React.js",
+                "Jira",
+                "Confluence"
             ]
         },
         {
