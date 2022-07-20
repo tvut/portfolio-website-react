@@ -9,6 +9,7 @@ import portfolio from '../Assets/Images/portfolio.mp4'
 import spotify from '../Assets/Images/spotify.mp4'
 // import space from '../Assets/Images/space.mp4'
 import threads from '../Assets/Images/simple_threads_c.mp4'
+import wordle from '../Assets/Images/wordle.mp4'
 import pluginp from '../Assets/Images/plugin.png'
 import pluginw from '../Assets/Images/plugin.webp'
 
@@ -43,6 +44,16 @@ export const Projects = ({dark}) => {
             tools: 'C, FUSE',
             name: 'Simple File System',
             desc: 'Implementation of a simple file system written in C. Can be mounted using FUSE and works as expected as a basic file system. Implements an I-Node structure for data storage. The file system stores a directory table, I-Node table, bitmap of free data blocks and a superblock to disk, as well as keeping them cached in memory when active to improve performance. '
+        },
+        {
+            imgpng: '',
+            imgweb: '',
+            vid: wordle,
+            source: '',
+            link: 'https://wordle-reactjs.herokuapp.com',
+            tools: 'React.js, Tailwind CSS',
+            name: 'Wordle',
+            desc: 'Implementation of Wordle. Has a dictionary of all the valid Wordle words that it randomly selects a word from and validates user input against. Uses a collection of oncapture events to automatically move the user through the interface.'
         },
         {
             imgpng: '',

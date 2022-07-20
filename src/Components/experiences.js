@@ -7,13 +7,13 @@ export const Experiences = () => {
         company: "RareCyte",
         start: "May 2022",
         end: "Present",
-        body: "Wireframing and implementing a Python API to provide higher level functionality to a lower level C++ API. Developing a JS frontend with a Python backend to allow control of the hardware instrument from a progressive web app."
+        body: "In charge of rewriting a C++ robotic instrument controller from a Windows Desktop App to a Progressive Web App. Rewrote the instrument controller to use MQTT IOT protocols and developed language agnostic schemas for commands sent through the protocol. Developed a Vue.js/Django frontend to interact with the instrument controller. Defined constraints for software inputs in collaboration with the biology and software teams and developed a new configuration environment to change instrument settings. Tested the controller with the instrument and observed up to a 50% scan speedup compared to previous workflows."
       },
       {
         position: "Front End Developer",
         company: "UAEM McGill",
         start: "December 2021",
-        end: "May 2022",
+        end: "Present",
         body: "Collaborating in a small team to build a Personal Protective Equipment Tracker developed in React.js with Tailwind CSS for local organizations in Montreal. Working closely with the backend team to maintain a Docker setup for the multiple databases and helping to maintain and edit the Express.js REST endpoints as necessary."
       },
         {
@@ -24,7 +24,7 @@ export const Experiences = () => {
           body: "Working as a tutor for the helpdesk at the McGill Computer Science Undergraduate Society tutoring other McGill students. Tutoring computer science concepts such as algorithms and data structures. Guiding tutees on best debugging practices and how to get the expected behavior from their code. Explaining computer science paradigms and good software design principles. Demonstrating proper syntax and how to learn proper syntax from software documentation."
         },
         {
-          position: "Lead Programmer",
+          position: "Robotics Programmer",
           company: "Quantum Robotics",
           start: "September 2016",
           end: "May 2020",

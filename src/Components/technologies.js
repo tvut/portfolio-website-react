@@ -14,7 +14,8 @@ export const Technologies = () => {
                 "JavaScript ES6",
                 "PHP",
                 "Bash",
-                "Ocaml"
+                "Ocaml",
+                "Latex"
             ]
         },
         {
@@ -26,20 +27,21 @@ export const Technologies = () => {
                 "Git",
                 "Adobe Suite",
                 "Docker",
-                "Express",
-                "React.js",
                 "Jira",
                 "Confluence"
             ]
         },
         {
-            name: "Applications",
+            name: "Frameworks",
             list: [
-                "Frontend Web Development",
-                "Backend Web Development",
-                "Web Design",
-                "Scripting",
-                "Robotics"
+                "React.js",
+                "Vue.js",
+                "Django",
+                "Express",
+                "Wordpress",
+                "Tailwind CSS",
+                "Bootstrap",
+                "Passport"
             ]
         }
     ]

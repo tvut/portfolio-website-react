@@ -25,10 +25,13 @@ export const Education = () => {
                                 <li><a href="https://www.mcgill.ca/study/2021-2022/courses/comp-252">Honours Algorithms and Data Structures</a></li>
                             </ul>
                         </p>
-                        {/* <p>Current Computer Science classes:
+                        <p>Current Computer Science classes:
                             <ul>
+                                <li><a href="https://www.mcgill.ca/study/2022-2023/courses/comp-303">Software Design</a></li>
+                                <li><a href="https://www.mcgill.ca/study/2022-2023/courses/comp-330">Theory of Computation</a></li>
+                                <li><a href="https://www.mcgill.ca/study/2022-2023/courses/comp-535">Computer Networks</a></li>
                             </ul>
-                        </p> */}
+                        </p>
                     </div>
                 </div>
                 <div className="experience-card">
