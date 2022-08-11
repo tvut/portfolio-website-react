@@ -58,7 +58,7 @@ function App() {
       <div className={darkMode ? "bg-dark" : "bg"}>
           <div className="container" style={{paddingBottom:"0"}}>
               <p>
-                  I'm a second year student at McGill University who's passionate about next-gen
+                  I'm a third year student at McGill University who's passionate about next-gen
                   technologies as well as using technology to connect people and ideas.
               </p>
               <Experiences/>
@@ -70,7 +70,6 @@ function App() {
       </div>
     </div>
     <Footer dark={darkMode} toggleDark={toggleDark}/>
-    <Music/>
     </>
   );
 }
