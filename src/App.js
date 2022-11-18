@@ -58,8 +58,7 @@ function App() {
       <div className={darkMode ? "bg-dark" : "bg"}>
           <div className="container" style={{paddingBottom:"0"}}>
               <p>
-                  I'm a third year student at McGill University who's passionate about next-gen
-                  technologies as well as using technology to connect people and ideas.
+                  I'm a third year student at McGill University who's passionate about high performance systems or robotics applications. I also have experience with frontend development and building full stack applications. 
               </p>
               <Experiences/>
               <h2 style={{marginBottom: "15px"}}>Projects</h2>

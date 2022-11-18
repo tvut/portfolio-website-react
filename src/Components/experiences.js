@@ -3,10 +3,17 @@ import { ExperienceCard } from "./experience"
 export const Experiences = () => {
     const experience = [
       {
+        position: "Software Engineering Intern",
+        company: "Capital One",
+        start: "June 2023",
+        end: "August 2023",
+        body: "Upcoming summer intern at Capital One in Chicago."
+      },
+      {
         position: "Software Development Intern",
         company: "RareCyte",
         start: "May 2022",
-        end: "Present",
+        end: "August 2022",
         body: "In charge of rewriting a C++ robotic instrument controller from a Windows Desktop App to a Progressive Web App. Rewrote the instrument controller to use MQTT IOT protocols and developed language agnostic schemas for commands sent through the protocol. Developed a Vue.js/Django frontend to interact with the instrument controller. Defined constraints for software inputs in collaboration with the biology and software teams and developed a new configuration environment to change instrument settings. Tested the controller with the instrument and observed up to a 50% scan speedup compared to previous workflows."
       },
       {

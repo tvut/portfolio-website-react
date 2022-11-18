@@ -1,5 +1,6 @@
 import ProjectCard from "./project"
 import covid from '../Assets/Images/covid.mp4'
+import forest from '../Assets/Images/forest.mp4'
 import f_system_c from '../Assets/Images/f_system_c.mp4'
 import pacmunp from '../Assets/Images/pacmun.png'
 import pacmunw from '../Assets/Images/pacmun.webp'
@@ -34,6 +35,16 @@ export const Projects = ({dark}) => {
             tools: 'React.js, Express, Tailwind CSS, Spotify API',
             name: 'Mixerify',
             desc: 'Developed a front end to allow a user to browse their Spotify library to pick playlists to send to our ML model, then developed a backend facilitating authorization and operating the Python ML model.'
+        },
+        {
+            imgpng: '',
+            imgweb: '',
+            vid: forest,
+            source: '',
+            link: 'https://forested.tech',
+            tools: 'React.js, Typescript, Tailwind CSS, Convex',
+            name: 'Forest',
+            desc: 'Interactive multiplayer online game that facilates live competive gameplay between players using a backend based in websockets.'
         },
         {
             imgpng: '',
