@@ -8,6 +8,7 @@ import pacmunw from '../Assets/Images/pacmun.webp'
 import sync from '../Assets/Images/sync.mp4'
 import portfolio from '../Assets/Images/portfolio.mp4'
 import spotify from '../Assets/Images/spotify.mp4'
+import happify from '../Assets/Images/happify.mp4'
 // import space from '../Assets/Images/space.mp4'
 import threads from '../Assets/Images/simple_threads_c.mp4'
 import wordle from '../Assets/Images/wordle.mp4'
@@ -29,12 +30,12 @@ export const Projects = ({dark}) => {
         {
             imgpng: '',
             imgweb: '',
-            vid: spotify,
+            vid: happify,
             source: '',
-            link: 'https://mixerify.ml',
-            tools: 'React.js, Express, Tailwind CSS, Spotify API',
-            name: 'Mixerify',
-            desc: 'Developed a front end to allow a user to browse their Spotify library to pick playlists to send to our ML model, then developed a backend facilitating authorization and operating the Python ML model.'
+            link: '',
+            tools: 'Vue.js, Flask, Tailwind CSS, Spotify API, Websockets, Tensorflow',
+            name: 'Happify',
+            desc: 'Analyzes productivity with two ML models and uses sentiment to queue a Spotify by interpolating across song features based on playlists defined for emotional quadrants. Animated frontend collects playlists to queue from then displays a live status animation.'
         },
         {
             imgpng: '',
@@ -45,6 +46,16 @@ export const Projects = ({dark}) => {
             tools: 'React.js, Typescript, Tailwind CSS, Convex',
             name: 'Forest',
             desc: 'Interactive multiplayer online game that facilates live competive gameplay between players using a backend based in websockets.'
+        },
+        {
+            imgpng: '',
+            imgweb: '',
+            vid: spotify,
+            source: '',
+            link: 'https://mixerify.ml',
+            tools: 'React.js, Express, Tailwind CSS, Spotify API',
+            name: 'Mixerify',
+            desc: 'Developed a front end to allow a user to browse their Spotify library to pick playlists to send to our ML model, then developed a backend facilitating authorization and operating the Python ML model.'
         },
         {
             imgpng: '',
