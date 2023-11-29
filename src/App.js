@@ -4,10 +4,10 @@ import './Assets/Dev/main.css'
 import './Assets/Dev/responsive.css'
 import Projects from './Components/projects';
 import Technologies from './Components/technologies';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Education from './Components/education';
 import Footer from './Components/footer';
-import Music from './Components/music';
+// import Music from './Components/music';
 
 function App() {
   const key = "darkMode"
@@ -58,7 +58,7 @@ function App() {
       <div className={darkMode ? "bg-dark" : "bg"}>
           <div className="container" style={{paddingBottom:"0"}}>
               <p>
-                  I'm a third year student at McGill University who's passionate about high performance systems or robotics applications. I also have experience with frontend development and building full stack applications. 
+                  I'm a fourth year student at McGill University who's passionate about high performance systems or robotics applications. I also have experience with frontend development and building full stack applications. 
               </p>
               <Experiences/>
               <h2 style={{marginBottom: "15px"}}>Projects</h2>

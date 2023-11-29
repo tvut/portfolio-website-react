@@ -4,10 +4,17 @@ export const Experiences = () => {
     const experience = [
       {
         position: "Software Engineering Intern",
+        company: "Coveo",
+        start: "September 2023",
+        end: "December 2023",
+        body: "Upcoming fall intern at Coveo in Chicago. Rewriting C++ infrastructure for data ingestion in the search core of the relevance engine."
+      },
+      {
+        position: "Software Engineering Intern",
         company: "Capital One",
         start: "June 2023",
         end: "August 2023",
-        body: "Upcoming summer intern at Capital One in Chicago."
+        body: "Built a serverless producer/consumer pipeline with Apache Kafka on AWS Lambdas to automate underwriting workflows. Schemas were developed in AVRO and then manipulated a MySQL database mapped with Spring. Unit testing was done in JUnit with mock DBs and run in a developer Docker environment, developer environment, QA environment, then finally pushed to production after following an acceptance test driven development model."
       },
       {
         position: "Software Development Intern",
