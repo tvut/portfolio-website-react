@@ -35,40 +35,54 @@ function App() {
 
   return (
     <>
-    <div className={darkMode ? "dark" : ""}>
-      <div className="half-center">
+      <div className={darkMode ? "dark" : ""}>
+        <div className="half-center">
           <h1>Hello. I'm Tristan.</h1>
-      </div>
-      <div className="small-socials">
+        </div>
+        <div className="small-socials">
           <div className="container">
-              <a onClick={toggleDark}>
-                  <i className="fa-solid fa-moon"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/tristanstev/">
-                  <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
-              </a>
-              <a href="https://github.com/tvut">
-                  <i className="fa-brands fa-github" aria-hidden="true"></i>
-              </a>
-              <a href="mailto:contact@tristans.ca">
-                  <i className="fa-solid fa-envelope" aria-hidden="true"></i>
-              </a>
+            <a onClick={toggleDark}>
+              <i className="fa-solid fa-moon"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/tristanstev/">
+              <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/tvut">
+              <i className="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:contact@tristanst.com">
+              <i className="fa-solid fa-envelope" aria-hidden="true"></i>
+            </a>
           </div>
-      </div>
-      <div className={darkMode ? "bg-dark" : "bg"}>
-          <div className="container" style={{paddingBottom:"0"}}>
-              <p>
-                  I'm a fourth year student at McGill University who's passionate about high performance systems or robotics applications. I also have experience with frontend development and building full stack applications. 
-              </p>
-              <Experiences/>
-              <h2 style={{marginBottom: "15px"}}>Projects</h2>
+        </div>
+        <div className={darkMode ? "bg-dark" : "bg"}>
+          <div className="container" style={{ paddingBottom: "0" }}>
+            <p>
+              I'm a fifth year student at McGill University who's passionate about high performance systems or robotics applications. I also have experience with frontend development and building full stack applications.
+            </p>
+            <Experiences />
+            <h2 style={{ marginBottom: "15px" }}>Research</h2>
+            <div className="experience-card">
+              <div className="titles">
+                <h3>Undergraduate Research</h3>
+                <h3>Under Supervision of <a href='https://www.cs.mcgill.ca/~martin/'>Martin Robilliard</a></h3>
+                <h4>AST Matching in Casdoc</h4>
+                <h5>January 2024 - May 2024</h5>
+              </div>
+              <div className="text">
+                <p>Designed an easy to use matching language to match ranges in source code based on AST nodes in Java Code.</p>
+                <p style={{marginTop: "12px"}}>Built an automated code annotator that extracts ranges from source code based on user provided matchers built in the new matching language
+                  and generates an HTML output file where user provided HTML snippets are bound to matched ranges.</p>
+              </div>
+            </div>
+            <h2 style={{ marginBottom: "15px" }}>Projects</h2>
           </div>
-          <Projects dark={darkMode}/>
-          <Technologies/>
-          <Education/>
+          <Projects dark={darkMode} />
+          <Technologies />
+          <Education />
+        </div>
       </div>
-    </div>
-    <Footer dark={darkMode} toggleDark={toggleDark}/>
+      <Footer dark={darkMode} toggleDark={toggleDark} />
     </>
   );
 }

@@ -11,11 +11,7 @@ export const Technologies = () => {
                 "Java",
                 "HTML",
                 "CSS / SASS",
-                "JavaScript ES6",
-                "PHP",
-                "Bash",
-                "Ocaml",
-                "Latex"
+                "JavaScript ES6"
             ]
         },
         {
@@ -28,7 +24,9 @@ export const Technologies = () => {
                 "Adobe Suite",
                 "Docker",
                 "Jira",
-                "Confluence"
+                "Confluence",
+                "Cmake",
+                "clang-tidy"
             ]
         },
         {
@@ -37,11 +35,9 @@ export const Technologies = () => {
                 "React.js",
                 "Vue.js",
                 "Django",
-                "Express",
                 "Wordpress",
                 "Tailwind CSS",
-                "Bootstrap",
-                "Passport"
+                "Bootstrap"
             ]
         }
     ]

@@ -11,9 +11,9 @@ export const Footer = ({dark, toggleDark}) => {
                         <i className="fa-brands fa-github" aria-hidden="true"></i>
                         <h3>@tvut</h3>
                     </a>
-                    <a className="social" href="mailto:contact@tristans.ca">
+                    <a className="social" href="mailto:contact@tristanst.com">
                         <i className="fa-solid fa-envelope" aria-hidden="true"></i>
-                        <h3>contact@tristans.ca</h3>
+                        <h3>contact@tristanst.com</h3>
                     </a>
                     <a className="social" onClick={toggleDark}>
                         <i className="fa-solid fa-moon" aria-hidden="true"></i>
@@ -23,7 +23,7 @@ export const Footer = ({dark, toggleDark}) => {
             </div>
             <footer>
                 <div className="container">
-                    <p style={{marginBottom:"20px"}}>Designed by me in 2023.</p>
+                    <p style={{marginBottom:"20px"}}>Designed by me in 2024.</p>
                     <p>Thanks for visiting! Feel free to check out my <a href="https://x.tristans.ca">photoblog</a> as well.</p>
                 </div>
             </footer>

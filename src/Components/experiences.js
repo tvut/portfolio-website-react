@@ -4,10 +4,17 @@ export const Experiences = () => {
     const experience = [
       {
         position: "Software Engineering Intern",
+        company: "Gecko Robotics",
+        start: "September 2023",
+        end: "December 2023",
+        body: "Working on the next generation of robot control."
+      },
+      {
+        position: "Software Development Intern",
         company: "Coveo",
         start: "September 2023",
         end: "December 2023",
-        body: "Upcoming fall intern at Coveo in Chicago. Rewriting C++ infrastructure for data ingestion in the search core of the relevance engine."
+        body: "Worked on large scale C++ refactoring using clang-tidy and AST tree matchers. Planned out migrations from legacy code to newer stdlib equivalents then wrote clang-tidy rules to automatically do code conversions based on AST tree traversals. Rearchitected over 50 incompatible classes and cascading fallout. Investigated legacy bugs and why equivalent code conversions led to undefined behavior. Rewrote 40,000 lines of code in a 2 million line codebase and removed 8,000 lines of newly sunsetted code."
       },
       {
         position: "Software Engineering Intern",
@@ -50,21 +57,21 @@ export const Experiences = () => {
           start: "December 2017",
           end: "November 2019",
           body: "Served as Under-Secretary-General of Technology on eight Secretariats for Model United Nations conferences run by Model United Nations Northwest, an organization dedicated to supporting the Model United Nations circuit in Washington State. I was in charge of web development as well conference IT, which involved managing our network setup and managing GSuite accounts for our staff members. I designed, developed and maintained four different websites for different conferences. Websites were built in PHP/HTML, CSS, JS, and JQuery. Optimization tools including Google Lighthouse and BrowserStack were used to ensure fast and consistent performance."
-        },
-        {
-          position: "Teaching Intern",
-          company: "Blaze Robotics",
-          start: "August 2019",
-          end: "",
-          body: "Designed the week-long curriculum for all levels of VEX EDR taught at summer camp. Taught robotics summer camps to a small group of K-8 kids. Assisted the director in fostering elementary/middle school students' interest in robotics. Taught basic C++ to summer camp participants as well as engineering design principles."
-        },
-        {
-          position: "App Development Intern",
-          company: "SAP Concur",
-          start: "January 2018",
-          end: "May 2018",
-          body: "Directed a small team in developing an Andriod app built in Java that utilized a weather API to dynamically adjust background tasks. Pitched final prototype to Concur's head of app development."
         }
+        // {
+        //   position: "Teaching Intern",
+        //   company: "Blaze Robotics",
+        //   start: "August 2019",
+        //   end: "",
+        //   body: "Designed the week-long curriculum for all levels of VEX EDR taught at summer camp. Taught robotics summer camps to a small group of K-8 kids. Assisted the director in fostering elementary/middle school students' interest in robotics. Taught basic C++ to summer camp participants as well as engineering design principles."
+        // },
+        // {
+        //   position: "App Development Intern",
+        //   company: "SAP Concur",
+        //   start: "January 2018",
+        //   end: "May 2018",
+        //   body: "Directed a small team in developing an Andriod app built in Java that utilized a weather API to dynamically adjust background tasks. Pitched final prototype to Concur's head of app development."
+        // }
       ]
     return (
        <>

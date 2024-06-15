@@ -42,7 +42,7 @@ export const Projects = ({dark}) => {
             imgweb: '',
             vid: forest,
             source: '',
-            link: 'https://forested.tech',
+            link: '',
             tools: 'React.js, Typescript, Tailwind CSS, Convex',
             name: 'Forest',
             desc: 'Interactive multiplayer online game that facilates live competive gameplay between players using a backend based in websockets.'
@@ -52,7 +52,7 @@ export const Projects = ({dark}) => {
             imgweb: '',
             vid: spotify,
             source: '',
-            link: 'https://mixerify.ml',
+            link: '',
             tools: 'React.js, Express, Tailwind CSS, Spotify API',
             name: 'Mixerify',
             desc: 'Developed a front end to allow a user to browse their Spotify library to pick playlists to send to our ML model, then developed a backend facilitating authorization and operating the Python ML model.'
@@ -72,7 +72,7 @@ export const Projects = ({dark}) => {
             imgweb: '',
             vid: wordle,
             source: '',
-            link: 'https://wordle-reactjs.herokuapp.com',
+            link: '',
             tools: 'React.js, Tailwind CSS',
             name: 'Wordle',
             desc: 'Implementation of Wordle. Has a dictionary of all the valid Wordle words that it randomly selects a word from and validates user input against. Uses a collection of oncapture events to automatically move the user through the interface.'
