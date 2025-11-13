@@ -23,8 +23,8 @@ export const Footer = ({dark, toggleDark}) => {
             </div>
             <footer>
                 <div className="container">
-                    <p style={{marginBottom:"20px"}}>Designed by me in 2024.</p>
-                    <p>Thanks for visiting! Feel free to check out my <a href="https://x.tristans.ca">photoblog</a> as well.</p>
+                    <p style={{marginBottom:"20px"}}>Designed by me in 2025.</p>
+                    {/* <p>Thanks for visiting! Feel free to check out my <a href="https://x.tristans.ca">photoblog</a> as well.</p> */}
                 </div>
             </footer>
         </>

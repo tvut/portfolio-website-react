@@ -5,38 +5,11 @@ export const Education = () => {
       <div>
         <div className="experience-card">
           <div className="titles">
-            <h3>Study Abroad</h3>
-            <h4>University of Edinburgh</h4>
-            <h5>January 2023 - May 2023</h5>
-          </div>
-          <div className="text">
-            <p>
-              Computer Science classes taken:
-              <ul>
-                <li>
-                  <a href="http://www.drps.ed.ac.uk/21-22/dpt/cxinfr10078.htm">
-                    Natural Language Processing
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.drps.ed.ac.uk/22-23/dpt/cxinfr10067.htm">
-                    Computer Security
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.drps.ed.ac.uk/22-23/dpt/cxinfr10065.htm">
-                    Compilers
-                  </a>
-                </li>
-              </ul>
-            </p>
-          </div>
-        </div>
-        <div className="experience-card">
-          <div className="titles">
-            <h3>Bs.C. Honours Computer Science</h3>
+            <h3>BsC Computer Science</h3>
             <h4>McGill University</h4>
-            <h3>3.83 GPA</h3>
+            <h3>3.84 GPA</h3>
+            <h5>First Degree Honours</h5>
+            <h5>Minor in Management</h5>
             <h5>September 2020 - December 2024</h5>
           </div>
           <div className="text">
@@ -131,6 +104,35 @@ export const Education = () => {
                 <li>
                   <a href="https://www.mcgill.ca/study/2023-2024/courses/math-340">
                     Discrete Mathematics
+                  </a>
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+                <div className="experience-card">
+          <div className="titles">
+            <h3>Study Abroad</h3>
+            <h4>University of Edinburgh</h4>
+            <h5>January 2023 - May 2023</h5>
+          </div>
+          <div className="text">
+            <p>
+              Computer Science classes taken:
+              <ul>
+                <li>
+                  <a href="http://www.drps.ed.ac.uk/21-22/dpt/cxinfr10078.htm">
+                    Natural Language Processing
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.drps.ed.ac.uk/22-23/dpt/cxinfr10067.htm">
+                    Computer Security
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.drps.ed.ac.uk/22-23/dpt/cxinfr10065.htm">
+                    Compilers
                   </a>
                 </li>
               </ul>

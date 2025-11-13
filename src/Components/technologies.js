@@ -5,26 +5,22 @@ export const Technologies = () => {
         {
             name: "Languages",
             list: [
+                "Python",
                 "C++",
                 "C",
-                "Python",
                 "Java",
-                "HTML",
-                "CSS / SASS",
-                "JavaScript ES6"
+                "JavaScript",
+                "SQL",
             ]
         },
         {
-            name: "Software",
+            name: "Tools",
             list: [
-                "AWS",
-                "Azure",
-                "Wordpress",
-                "Git",
-                "Adobe Suite",
+                "Google Cloud (GCP)",
+                "Amazon Web Services (AWS)",
                 "Docker",
-                "Jira",
-                "Confluence",
+                "Github Actions",
+                "Git",
                 "Cmake",
                 "clang-tidy"
             ]
@@ -32,12 +28,12 @@ export const Technologies = () => {
         {
             name: "Frameworks",
             list: [
+                "Svelte",
                 "React.js",
                 "Vue.js",
                 "Django",
                 "Wordpress",
-                "Tailwind CSS",
-                "Bootstrap"
+                "Tailwind",
             ]
         }
     ]

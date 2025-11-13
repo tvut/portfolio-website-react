@@ -3,11 +3,18 @@ import { ExperienceCard } from "./experience"
 export const Experiences = () => {
     const experience = [
       {
+        position: "Software Engineer",
+        company: "Gecko Robotics",
+        start: "March 2025",
+        end: "Present",
+        body: "Working to improve data pipelines and harden rendering infrastructure."
+      },
+      {
         position: "Software Engineering Intern",
         company: "Gecko Robotics",
-        start: "September 2023",
-        end: "December 2023",
-        body: "Working on the next generation of robot control."
+        start: "May 2024",
+        end: "August 2024",
+        body: "Worked with test engineers to build tools for calibrating ultrasonic sensors using WebGL and pubsub to live stream sensor data and adjust settings in Svelte, Python and C++. Created a data-streaming and point renderer service that introduced an on-site data validation workflow by rendering up to 30 million localized points on a simulated asset model."
       },
       {
         position: "Software Development Intern",

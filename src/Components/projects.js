@@ -1,5 +1,5 @@
 import ProjectCard from "./project"
-import covid from '../Assets/Images/covid.mp4'
+// import covid from '../Assets/Images/covid.mp4'
 import forest from '../Assets/Images/forest.mp4'
 import f_system_c from '../Assets/Images/f_system_c.mp4'
 import pacmunp from '../Assets/Images/pacmun.png'
@@ -77,22 +77,22 @@ export const Projects = ({dark}) => {
             name: 'Wordle',
             desc: 'Implementation of Wordle. Has a dictionary of all the valid Wordle words that it randomly selects a word from and validates user input against. Uses a collection of oncapture events to automatically move the user through the interface.'
         },
-        {
-            imgpng: '',
-            imgweb: '',
-            vid: covid,
-            source: '',
-            link: '',
-            tools: 'Python, Jupyter, Azure',
-            name: 'COVID Sentiment Analysis',
-            desc: 'Scraped comments on YouTube videos that matched keywords and location parameters then analyzed the comments using a trained sentiment analysis model to examine different COVID sentiments by region.'
-        },
+        // {
+        //     imgpng: '',
+        //     imgweb: '',
+        //     vid: covid,
+        //     source: '',
+        //     link: '',
+        //     tools: 'Python, Jupyter, Azure',
+        //     name: 'COVID Sentiment Analysis',
+        //     desc: 'Scraped comments on YouTube videos that matched keywords and location parameters then analyzed the comments using a trained sentiment analysis model to examine different COVID sentiments by region.'
+        // },
         {
             imgpng: pacmunp,
             imgweb: pacmunw,
             vid: '',
             source: '',
-            link: 'https://pacmun.tristans.ca',
+            link: '',
             tools: 'PHP, CSS, JS, Lighthouse',
             name: 'PACMUN Website',
             desc: 'A complete overhaul of the PACMUN website with an emphasis on fast loading times. Optimized the home page to load to usable in under 3 seconds on a 3G connection. Rebuilt committees pages to serve out of an object-orientated PHP database using mod-rewrite.'
@@ -112,7 +112,7 @@ export const Projects = ({dark}) => {
             imgweb: pluginw,
             vid: '',
             source: '',
-            link: 'https://x.tristans.ca',
+            link: '',
             tools: 'PHP, CSS, Wordpress',
             name: 'WP Masonry Gallery',
             desc: 'A rewrite of a Wordpress gallery plugin with the goal of generating and serving images with resolution more correctly suited for the device screen size to save bandwidth and server load.'
@@ -122,7 +122,7 @@ export const Projects = ({dark}) => {
             imgweb: '',
             vid: sync,
             source: '',
-            link: 'https://github.com/tvut/tuya-sync',
+            link: '',
             tools: 'Python',
             name: 'TuyaSync',
             desc: 'Program that would sample what was on a computer screen then change linked smart lights color to the average color from the screen.'
@@ -137,16 +137,16 @@ export const Projects = ({dark}) => {
         //     name: 'React ToDo',
         //     desc: 'Simple To-do app written in React that takes advantage of local browser storage in order to store and keep track of to-dos.'
         // },
-        {
-            imgpng: '',
-            imgweb: '',
-            vid: threads,
-            source: '',
-            link: '',
-            tools: 'C, pthreads',
-            name: 'User Thread Scheduling Library',
-            desc: 'Implementation of a user thread scheduling library with an I/O thread and either one or two non-I/O execution threads. Makes use of context switching and several queues in order to effectively swap contexts between threads.'
-        }
+        // {
+        //     imgpng: '',
+        //     imgweb: '',
+        //     vid: threads,
+        //     source: '',
+        //     link: '',
+        //     tools: 'C, pthreads',
+        //     name: 'User Thread Scheduling Library',
+        //     desc: 'Implementation of a user thread scheduling library with an I/O thread and either one or two non-I/O execution threads. Makes use of context switching and several queues in order to effectively swap contexts between threads.'
+        // }
       ]
     return (
         <div className='overflow'>
